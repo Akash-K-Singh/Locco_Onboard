@@ -22,6 +22,9 @@ class OnboardingController: UIViewController {
         onboardBrain.currentPage = sliderControl.currentPage
         let nextPage = min(onboardBrain.currentPage + 1, onboardBrain.onboardScreenData.count - 1)
         sliderControl.currentPage = nextPage
+        if(onboardBrain.currentPage == onboardBrain.onboardScreenData.count - 2){
+            nextButton.setTitle("Start", for: .normal)
+        }
         if(onboardBrain.currentPage == onboardBrain.onboardScreenData.count - 1){
             performSegue(withIdentifier: "GoToHomeScreenBentobox", sender: self)
         } else {
@@ -38,6 +41,9 @@ class OnboardingController: UIViewController {
         onboardBrain.currentPage = sliderControl.currentPage
         let previousPage = max(onboardBrain.currentPage - 1, 0)
         sliderControl.currentPage = previousPage
+        if(onboardBrain.currentPage <= onboardBrain.onboardScreenData.count - 1){
+            nextButton.setTitle("Next", for: .normal)
+        }
         iconImage.image = UIImage(named: onboardBrain.onboardScreenData[onboardBrain.currentPage - 1].iconImage)
         headingLabel.text = onboardBrain.onboardScreenData[onboardBrain.currentPage - 1].heading
         descriptionLabel.text = onboardBrain.onboardScreenData[onboardBrain.currentPage - 1].description
@@ -91,7 +97,6 @@ extension OnboardingController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-       
         return CGSize(width: collectionView.bounds.width, height: collectionView.bounds.height)
     }
 }
