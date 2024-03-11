@@ -15,27 +15,10 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="258" height="454"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide1" translatesAutoresizingMaskIntoConstraints="NO" id="k5I-7l-U0H">
-                        <rect key="frame" x="0.0" y="0.0" width="258" height="454"/>
-                    </imageView>
-                </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <constraints>
-                <constraint firstItem="k5I-7l-U0H" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6Mv-5O-Vr4"/>
-                <constraint firstAttribute="trailing" secondItem="k5I-7l-U0H" secondAttribute="trailing" id="GaK-P8-nfF"/>
-                <constraint firstAttribute="bottom" secondItem="k5I-7l-U0H" secondAttribute="bottom" id="dt3-O4-4y0"/>
-                <constraint firstItem="k5I-7l-U0H" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hGh-Bc-i8r"/>
-            </constraints>
             <size key="customSize" width="258" height="454"/>
-            <connections>
-                <outlet property="sliderImage" destination="k5I-7l-U0H" id="pXq-Ug-Tou"/>
-            </connections>
             <point key="canvasLocation" x="297.70992366412213" y="94.366197183098592"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="slide1" width="1688" height="1125"/>
-    </resources>
 </document>

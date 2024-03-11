@@ -43,6 +43,15 @@
 		74DD21FB2B9ED3530048ED53 /* Metropolis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 74DD21E82B9ED3520048ED53 /* Metropolis-Medium.otf */; };
 		74DD21FC2B9ED3530048ED53 /* Metropolis-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 74DD21E92B9ED3520048ED53 /* Metropolis-MediumItalic.otf */; };
 		74DD22012B9EDC030048ED53 /* HomeScreenBentoboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DD22002B9EDC030048ED53 /* HomeScreenBentoboxController.swift */; };
+		74DD22052B9EE5870048ED53 /* onboard_video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74DD22022B9EE5870048ED53 /* onboard_video2.mp4 */; };
+		74DD22062B9EE5870048ED53 /* onboard_video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74DD22022B9EE5870048ED53 /* onboard_video2.mp4 */; };
+		74DD22072B9EE5870048ED53 /* onboard_video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74DD22022B9EE5870048ED53 /* onboard_video2.mp4 */; };
+		74DD22082B9EE5870048ED53 /* onboard_video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74DD22032B9EE5870048ED53 /* onboard_video1.mp4 */; };
+		74DD22092B9EE5870048ED53 /* onboard_video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74DD22032B9EE5870048ED53 /* onboard_video1.mp4 */; };
+		74DD220A2B9EE5870048ED53 /* onboard_video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74DD22032B9EE5870048ED53 /* onboard_video1.mp4 */; };
+		74DD220B2B9EE5870048ED53 /* onboard_video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74DD22042B9EE5870048ED53 /* onboard_video3.mp4 */; };
+		74DD220C2B9EE5870048ED53 /* onboard_video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74DD22042B9EE5870048ED53 /* onboard_video3.mp4 */; };
+		74DD220D2B9EE5870048ED53 /* onboard_video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74DD22042B9EE5870048ED53 /* onboard_video3.mp4 */; };
 		74EFFCCD2B9B3A65003B03E4 /* OnboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EFFCCC2B9B3A65003B03E4 /* OnboardData.swift */; };
 		74EFFCCF2B9B3B18003B03E4 /* OnboardBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EFFCCE2B9B3B18003B03E4 /* OnboardBrain.swift */; };
 /* End PBXBuildFile section */
@@ -105,6 +114,9 @@
 		74DD21E82B9ED3520048ED53 /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Medium.otf"; sourceTree = "<group>"; };
 		74DD21E92B9ED3520048ED53 /* Metropolis-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-MediumItalic.otf"; sourceTree = "<group>"; };
 		74DD22002B9EDC030048ED53 /* HomeScreenBentoboxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenBentoboxController.swift; sourceTree = "<group>"; };
+		74DD22022B9EE5870048ED53 /* onboard_video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onboard_video2.mp4; sourceTree = "<group>"; };
+		74DD22032B9EE5870048ED53 /* onboard_video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onboard_video1.mp4; sourceTree = "<group>"; };
+		74DD22042B9EE5870048ED53 /* onboard_video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onboard_video3.mp4; sourceTree = "<group>"; };
 		74EFFCCC2B9B3A65003B03E4 /* OnboardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardData.swift; sourceTree = "<group>"; };
 		74EFFCCE2B9B3B18003B03E4 /* OnboardBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,6 +169,9 @@
 		74C35B822B9B0C2200085B09 /* Locco slider */ = {
 			isa = PBXGroup;
 			children = (
+				74DD22032B9EE5870048ED53 /* onboard_video1.mp4 */,
+				74DD22022B9EE5870048ED53 /* onboard_video2.mp4 */,
+				74DD22042B9EE5870048ED53 /* onboard_video3.mp4 */,
 				74DD21CB2B9ED2F40048ED53 /* assets */,
 				74C35B832B9B0C2200085B09 /* AppDelegate.swift */,
 				74C35B852B9B0C2200085B09 /* SceneDelegate.swift */,
@@ -365,12 +380,15 @@
 				74DD21F32B9ED3530048ED53 /* Metropolis-ExtraLight.otf in Resources */,
 				74DD21D32B9ED33B0048ED53 /* LondrinaSolid-Black.ttf in Resources */,
 				74DD21F02B9ED3530048ED53 /* Metropolis-ExtraLightItalic.otf in Resources */,
+				74DD22052B9EE5870048ED53 /* onboard_video2.mp4 in Resources */,
 				74DD21EC2B9ED3530048ED53 /* Metropolis-RegularItalic.otf in Resources */,
 				74DD21F22B9ED3530048ED53 /* Metropolis-Black.otf in Resources */,
 				74DD21F42B9ED3530048ED53 /* Metropolis-ExtraBold.otf in Resources */,
+				74DD22082B9EE5870048ED53 /* onboard_video1.mp4 in Resources */,
 				74DD21D52B9ED33B0048ED53 /* LondrinaSolid-Light.ttf in Resources */,
 				74C35B902B9B0C2400085B09 /* LaunchScreen.storyboard in Resources */,
 				74C35B8D2B9B0C2400085B09 /* Assets.xcassets in Resources */,
+				74DD220B2B9EE5870048ED53 /* onboard_video3.mp4 in Resources */,
 				74DD21D62B9ED33B0048ED53 /* LondrinaSolid-Thin.ttf in Resources */,
 				74DD21F12B9ED3530048ED53 /* Metropolis-Bold.otf in Resources */,
 				74DD21FA2B9ED3530048ED53 /* Metropolis-Thin.otf in Resources */,
@@ -393,6 +411,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DD220C2B9EE5870048ED53 /* onboard_video3.mp4 in Resources */,
+				74DD22062B9EE5870048ED53 /* onboard_video2.mp4 in Resources */,
+				74DD22092B9EE5870048ED53 /* onboard_video1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +421,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DD220D2B9EE5870048ED53 /* onboard_video3.mp4 in Resources */,
+				74DD22072B9EE5870048ED53 /* onboard_video2.mp4 in Resources */,
+				74DD220A2B9EE5870048ED53 /* onboard_video1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

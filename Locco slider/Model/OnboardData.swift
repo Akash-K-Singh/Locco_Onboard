@@ -5,5 +5,5 @@ struct OnboardData{
     let heading: String
     let description: String
     let iconImage: String
-    let backgroundImage: String
+    let backgroundVideo: String
 }

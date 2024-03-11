@@ -1,4 +1,5 @@
 import UIKit
+import AVKit
 
 class OnboardingController: UIViewController {
       
@@ -23,6 +24,10 @@ class OnboardingController: UIViewController {
         sliderControl.currentPage = nextPage
         if(onboardBrain.currentPage == onboardBrain.onboardScreenData.count - 1){
             performSegue(withIdentifier: "GoToHomeScreenBentobox", sender: self)
+        } else {
+            iconImage.image = UIImage(named: onboardBrain.onboardScreenData[onboardBrain.currentPage + 1].iconImage)
+            headingLabel.text = onboardBrain.onboardScreenData[onboardBrain.currentPage + 1].heading
+            descriptionLabel.text = onboardBrain.onboardScreenData[onboardBrain.currentPage + 1].description
         }
         previousButton.alpha = 1
         let nextIndexPath = IndexPath(item: nextPage, section: 0)
@@ -33,6 +38,9 @@ class OnboardingController: UIViewController {
         onboardBrain.currentPage = sliderControl.currentPage
         let previousPage = max(onboardBrain.currentPage - 1, 0)
         sliderControl.currentPage = previousPage
+        iconImage.image = UIImage(named: onboardBrain.onboardScreenData[onboardBrain.currentPage - 1].iconImage)
+        headingLabel.text = onboardBrain.onboardScreenData[onboardBrain.currentPage - 1].heading
+        descriptionLabel.text = onboardBrain.onboardScreenData[onboardBrain.currentPage - 1].description
         if(onboardBrain.currentPage == 1){
             previousButton.alpha = 0
         }
@@ -67,8 +75,8 @@ extension OnboardingController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCell", for: indexPath) as! CollectionViewCell
-        let imageName = onboardBrain.onboardScreenData[indexPath.item].backgroundImage
-        cell.sliderImage?.image = UIImage(named: imageName)
+        let videoName = onboardBrain.onboardScreenData[indexPath.item].backgroundVideo
+        cell.configure(with: videoName)
         return cell
     }
 }
