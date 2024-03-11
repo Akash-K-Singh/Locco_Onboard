@@ -100,4 +100,3 @@ extension OnboardingController: UICollectionViewDelegateFlowLayout {
         return CGSize(width: collectionView.bounds.width, height: collectionView.bounds.height)
     }
 }
-
