@@ -13,8 +13,8 @@
         <array key="LondrinaSolid-Regular.ttf">
             <string>LondrinaSolid-Regular</string>
         </array>
-        <array key="Metropolis-Light.otf">
-            <string>Metropolis-Light</string>
+        <array key="Metropolis-Medium.otf">
+            <string>Metropolis-Medium</string>
         </array>
     </customFonts>
     <scenes>
@@ -137,13 +137,13 @@
                                                         </constraints>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQj-qV-Q5o">
-                                                        <rect key="frame" x="71.000000000000014" y="119" width="208.33333333333337" height="57"/>
+                                                        <rect key="frame" x="67.666666666666671" y="119" width="214.66666666666663" height="57"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="57" id="QkX-FX-92C"/>
                                                         </constraints>
                                                         <string key="text">your surroundings like
  never before</string>
-                                                        <fontDescription key="fontDescription" name="Metropolis-Light" family="Metropolis" pointSize="20"/>
+                                                        <fontDescription key="fontDescription" name="Metropolis-Medium" family="Metropolis" pointSize="20"/>
                                                         <color key="textColor" name="secondaryColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -215,6 +215,7 @@
                         <outlet property="myCollectionView" destination="vpR-hb-nUy" id="LSz-4j-1UE"/>
                         <outlet property="nextButton" destination="3li-Sm-JRv" id="7PG-SR-ZCo"/>
                         <outlet property="previousButton" destination="KpU-ax-rWK" id="SjT-5t-ru8"/>
+                        <outlet property="skipButton" destination="UcE-SG-4Bl" id="jt4-D8-jgP"/>
                         <outlet property="sliderControl" destination="nVV-GI-BW0" id="Mel-UE-o1E"/>
                         <segue destination="Ovb-ZA-CgN" kind="showDetail" identifier="GoToHomeScreenBentobox" id="HIe-U2-YBl"/>
                     </connections>
@@ -257,7 +258,7 @@
         <image name="HomeScreenBentobox" width="310" height="675"/>
         <image name="Map Arrow Up" width="24" height="24.333333969116211"/>
         <namedColor name="primaryColor">
-            <color red="0.42324960230000003" green="0.76053845880000004" blue="0.71032512189999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.42300000786781311" green="0.76099997758865356" blue="0.70999997854232788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="secondaryColor">
             <color red="0.98984760049999998" green="0.98984760049999998" blue="0.98984760049999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
